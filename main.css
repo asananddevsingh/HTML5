@@ -1,3 +1,4 @@
+/*Day 01*/
 p.para1{color: red;} /* All p having para1 class */
 p[name]{color: blue;}  /* all para with name attribute */
 p[name="n2"]{color: green;} /*all para with name */
@@ -9,3 +10,4 @@ p[name*="ame"]{text-decoration:underline;} /* all para with "ame its name attrib
 .child:nth-child(2){color: green;}
 .child:nth-child(odd){color: yellow;}
 .child:nth-child(2n+1){font-size: 25pt;}
+

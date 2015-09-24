@@ -1,0 +1,10 @@
+/* Negation pseudo class*/
+*{color: red;}
+:not(.mommy-boy){color: green;}
+
+/* > symbol in CSS */
+div> span{font-size: 14pt;}
+span.class-span + span {font-weight: bold; } /* This must
+share same parent*/
+
+span.class-span ~ span {color: coral;}
