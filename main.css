@@ -1,0 +1,11 @@
+p.para1{color: red;} /* All p having para1 class */
+p[name]{color: blue;}  /* all para with name attribute */
+p[name="n2"]{color: green;} /*all para with name */
+p[name^="n"]{font-style: italic;} /* all para whose name starts with "n" */
+p[name$="1"]{font-weight: bold;}
+p[name*="ame"]{text-decoration:underline;} /* all para with "ame its name attribute" */
+
+/*pseudo class*/
+.child:nth-child(2){color: green;}
+.child:nth-child(odd){color: yellow;}
+.child:nth-child(2n+1){font-size: 25pt;}
