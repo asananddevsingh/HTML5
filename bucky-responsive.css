@@ -79,3 +79,7 @@ body {
     padding: 20px;
     border-top: 2px solid green;
 }
+
+footer p {
+    float: right;
+}
